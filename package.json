@@ -1,0 +1,15 @@
+{
+  "name": "evilsemicolon",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "evilsemicolon": "./bin/index.js"
+  },
+  "preferGlobal": true,
+  "author": "lbineau",
+  "license": "ISC"
+}
