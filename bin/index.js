@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+// don't remove the previous comment https://github.com/dthree/vorpal/issues/160
 const fs = require('fs');
 const args = process.argv.slice(2);
 const file = args[0];
@@ -11,4 +13,3 @@ fs.readFile(file, 'utf8', function (err,data) {
      if (err) return console.log(err);
   });
 });
-
